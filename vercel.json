@@ -15,13 +15,13 @@
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "thiruthofficial/wsgi.py"
-    },
+   
     {
       "src": "/static/(.*)",
       "dest": "/static/$1"
-    }
+    }, {
+      "src": "/(.*)",
+      "dest": "thiruthofficial/wsgi.py"
+    },
   ]
 }
