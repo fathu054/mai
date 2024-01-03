@@ -3,12 +3,12 @@
   "builds": [
     {
       "src": "mai/wsgi.py",
-      "use": "@vercel/python",
+      "use": "@github/python",
       "config":{"maxLambdaSize": "15mb", "runtime": "python3.12"}
     },
     {
       "src": "build_files.sh",
-      "use": "@vercel/static-build",
+      "use": "@github/static-build",
       "config": {
         "distDir": "staticfiles_build"
       }
