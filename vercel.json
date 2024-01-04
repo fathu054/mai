@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "mai/wsgi.py",
+      "src": "thiruthofficial/wsgi.py",
       "use": "@vercel/python",
       "config":{"maxLambdaSize": "15mb", "runtime": "python3.9"}
     },
@@ -21,7 +21,7 @@
       "dest": "/static/$1"
     }, {
       "src": "/(.*)",
-      "dest": "mai/wsgi.py"
+      "dest": "thiruthofficial/wsgi.py"
     },
   ]
 }
