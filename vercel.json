@@ -47,7 +47,5 @@
         "destination": "/$1"
       }
     ],
-    "trailingSlash": "ignore",
-    "cleanUrls": true
   }
   
